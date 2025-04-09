@@ -118,6 +118,6 @@ Eventos personalizados	Logs, arquivos, serviços críticos
 
   ---
 
-##Licença / License
+## 📄 Licença / License
 
-Este projeto é open-source e está licenciado sob a MIT License
+Este projeto está licenciado sob a [MIT License](LICENSE)
