@@ -71,3 +71,37 @@ infraestrutura-completa-redes/
 ├── lab/
 ├── projetos/
 └── LICENSE
+
+---
+
+## 📌 Como usar este repositório / How to use this repository
+
+    Siga os guias na pasta /lab para configurar sua VM Ubuntu Server
+
+    Utilize os scripts para aplicar serviços e segurança
+
+    Explore os projetos práticos na pasta /projetos
+
+    Analise os arquivos /docs para referência de arquitetura e topologia
+
+🎓 Projetos Acadêmicos Complementares
+
+Projetos desenvolvidos durante a graduação em Gerenciamento de Redes de Computadores (UNIP - Brasília/DF, 2008), e estudos complementares.
+1. VoIP Technology Promoting – Projeto Acadêmico
+
+    Projeto multidisciplinar com foco na promoção da tecnologia VoIP e integração entre redes de dados e telefonia.
+    Multidisciplinary academic project focused on VoIP technology and convergence between data and voice networks.
+
+2. XYZ Company Infrastructure – Projeto Acadêmico
+
+    Simulação da criação da infraestrutura de uma empresa com interligação entre matriz e filiais por VPN.
+    Simulation of a complete corporate infrastructure, connecting HQ and branches through secure VPN.
+
+3. Modelo OSI – Estudo Técnico
+
+    Revisão detalhada do Modelo OSI com camadas, protocolos e exemplos de aplicação.
+    Detailed OSI Model review with layers, protocols and real-world examples.
+
+📄 Licença / License
+
+Este projeto está licenciado sob a MIT License
