@@ -71,8 +71,7 @@ infraestrutura-completa-redes/
 ├── lab/
 ├── projetos/
 └── LICENSE
-
----
+```
 
 ## 📌 Como usar este repositório / How to use this repository
 
