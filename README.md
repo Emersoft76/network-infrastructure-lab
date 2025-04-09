@@ -79,17 +79,17 @@ infraestrutura-completa-redes/
 
 Projetos desenvolvidos durante a graduação em Gerenciamento de Redes de Computadores (UNIP - Brasília/DF, 2008), e estudos complementares.
 
-1. VoIP Technology Promoting – Projeto Acadêmico
+### 1. [VoIP Technology Promoting – Projeto Acadêmico](https://github.com/Emersoft76/voip-academic-project) 
 
     Projeto multidisciplinar com foco na promoção da tecnologia VoIP e integração entre redes de dados e telefonia.
     Multidisciplinary academic project focused on VoIP technology and convergence between data and voice networks.
 
-2. XYZ Company Infrastructure – Projeto Acadêmico
+2. ### 2. [XYZ Company Infrastructure – Projeto Acadêmico](https://github.com/Emersoft76/xyz-company-infra)
 
     Simulação da criação da infraestrutura de uma empresa com interligação entre matriz e filiais por VPN.
     Simulation of a complete corporate infrastructure, connecting HQ and branches through secure VPN.
 
-3. Modelo OSI – Estudo Técnico
+3. ### 3. [Modelo OSI – Estudo Técnico](https://github.com/Emersoft76/modelo-osi-review)
 
     Revisão detalhada do Modelo OSI com camadas, protocolos e exemplos de aplicação.
     Detailed OSI Model review with layers, protocols and real-world examples.
