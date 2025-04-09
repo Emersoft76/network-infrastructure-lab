@@ -76,7 +76,7 @@ infraestrutura-completa-redes/
 ---
 
 
-🎓 Projetos Acadêmicos Complementares
+##🎓 Projetos Acadêmicos Complementares
 
 Projetos desenvolvidos durante a graduação em Gerenciamento de Redes de Computadores (UNIP - Brasília/DF, 2008), e estudos complementares.
 1. VoIP Technology Promoting – Projeto Acadêmico
