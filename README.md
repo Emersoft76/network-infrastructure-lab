@@ -81,15 +81,15 @@ Projetos desenvolvidos durante a graduação em Gerenciamento de Redes de Comput
 
 ### 1. [VoIP Technology Promoting – Projeto Acadêmico](https://github.com/Emersoft76/VoIP-Protocols-Comparison-Lab)
 
-Projeto multidisciplinar com foco na promoção da tecnologia VoIP e integração entre redes de dados e telefonia.
-Multidisciplinary academic project focused on VoIP technology and convergence between data and voice networks.
+    Projeto multidisciplinar com foco na promoção da tecnologia VoIP e integração entre redes de dados e telefonia.
+    Multidisciplinary academic project focused on VoIP technology and convergence between data and voice networks.
 
-2. ### 2. [XYZ Company Infrastructure – Projeto Acadêmico](https://github.com/Emersoft76/xyz-company-it-infrastructure-lab)
+### 2. [XYZ Company Infrastructure – Projeto Acadêmico](https://github.com/Emersoft76/xyz-company-it-infrastructure-lab)
 
     Simulação da criação da infraestrutura de uma empresa com interligação entre matriz e filiais por VPN.
     Simulation of a complete corporate infrastructure, connecting HQ and branches through secure VPN.
 
-3. ### 3. [Modelo OSI – Estudo Técnico](https://github.com/Emersoft76/osi-model-review)
+### 3. [Modelo OSI – Estudo Técnico](https://github.com/Emersoft76/osi-model-review)
 
     Revisão detalhada do Modelo OSI com camadas, protocolos e exemplos de aplicação.
     Detailed OSI Model review with layers, protocols and real-world examples.
