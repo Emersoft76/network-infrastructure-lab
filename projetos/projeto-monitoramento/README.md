@@ -63,7 +63,9 @@ projeto-monitoramento/
 sudo apt update
 sudo apt install zabbix-agent -y
 sudo nano /etc/zabbix/zabbix_agent.conf
+```
 # Configure Server= e Hostname=
+```bash
 sudo systemctl enable zabbix-agent
 sudo systemctl restart zabbix-agent
 ```
