@@ -115,3 +115,9 @@ Eventos personalizados	Logs, arquivos, serviços críticos
   Monitoramento externo (Zabbix Proxy em outra unidade)
 
   Coleta remota via VPN
+
+  ---
+
+##Licença / License
+
+Este projeto é open-source e está licenciado sob a MIT License
