@@ -73,15 +73,8 @@ infraestrutura-completa-redes/
 └── LICENSE
 ```
 
-## 📌 Como usar este repositório / How to use this repository
+---
 
-    Siga os guias na pasta /lab para configurar sua VM Ubuntu Server
-
-    Utilize os scripts para aplicar serviços e segurança
-
-    Explore os projetos práticos na pasta /projetos
-
-    Analise os arquivos /docs para referência de arquitetura e topologia
 
 🎓 Projetos Acadêmicos Complementares
 
