@@ -75,9 +75,10 @@ infraestrutura-completa-redes/
 
 ---
 
-##🎓 Projetos Acadêmicos Complementares
+## 🎓 Projetos Acadêmicos Complementares
 
 Projetos desenvolvidos durante a graduação em Gerenciamento de Redes de Computadores (UNIP - Brasília/DF, 2008), e estudos complementares.
+
 1. VoIP Technology Promoting – Projeto Acadêmico
 
     Projeto multidisciplinar com foco na promoção da tecnologia VoIP e integração entre redes de dados e telefonia.
@@ -93,6 +94,6 @@ Projetos desenvolvidos durante a graduação em Gerenciamento de Redes de Comput
     Revisão detalhada do Modelo OSI com camadas, protocolos e exemplos de aplicação.
     Detailed OSI Model review with layers, protocols and real-world examples.
 
-📄 Licença / License
+## 📄 Licença / License
 
 Este projeto está licenciado sob a MIT License
