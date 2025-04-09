@@ -118,6 +118,7 @@ Eventos personalizados	Logs, arquivos, serviços críticos
 
   ---
 
-## 📄 Licença / License
+## Licença / License
+Este material está licenciado sob a [MIT License](../LICENSE)
 
-Este projeto está licenciado sob a [MIT License](LICENSE)
+---
