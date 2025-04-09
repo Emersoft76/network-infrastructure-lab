@@ -79,7 +79,7 @@ infraestrutura-completa-redes/
 
 Projetos desenvolvidos durante a graduação em Gerenciamento de Redes de Computadores (UNIP - Brasília/DF, 2008), e estudos complementares.
 
-### 1. [VoIP Technology Promoting – Projeto Acadêmico](https://github.com/Emersoft76/voip-academic-project) 
+### 1. [VoIP Technology Promoting – Projeto Acadêmico](https://github.com/Emersoft76/VoIP-Protocols-Comparison-Lab) 
 
     Projeto multidisciplinar com foco na promoção da tecnologia VoIP e integração entre redes de dados e telefonia.
     Multidisciplinary academic project focused on VoIP technology and convergence between data and voice networks.
