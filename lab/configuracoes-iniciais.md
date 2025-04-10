@@ -45,15 +45,15 @@ Torna mais fácil identificar o servidor em ambientes com múltiplas VMs.
 ```bash
 sudo apt install ufw -y
 ```
-# Permitir acesso via SSH
+### Permitir acesso via SSH
 ```bash
 sudo ufw allow ssh
 ```
-# Ativar o firewall
+### Ativar o firewall
 ```bash
 sudo ufw enable
 ```
-# Verificar status
+### Verificar status
 ```bash
 sudo ufw status verbose
 ```
