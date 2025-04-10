@@ -1,6 +1,3 @@
-### ✅ `configure_network.sh` (Script de rede)
-
-```bash
 #!/bin/bash
 
 # Configuração de IP estático e hostname em Ubuntu Server
