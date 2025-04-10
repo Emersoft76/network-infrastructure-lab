@@ -52,3 +52,11 @@ sudo ./firewall.sh
 ---
 
 💡 Ideal para servidores Linux baseados em Ubuntu ou Debian.
+
+---
+
+---
+
+## ✅ Próximo passo sugerido / Suggested next step
+
+- [openvpn_server.md](./openvpn_server.md): Estabeleça uma conexão VPN segura após configurar o firewall.
