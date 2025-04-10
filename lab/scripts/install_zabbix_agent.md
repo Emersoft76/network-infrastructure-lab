@@ -64,3 +64,11 @@ telnet 192.168.50.100 10051
     Site oficial: https://www.zabbix.com
 
     Documentação: https://www.zabbix.com/documentation
+
+---
+
+---
+
+## ✅ Próximo passo sugerido / Suggested next step
+
+- [log_rotation_setup.md](./log_rotation_setup.md): Automatize a rotação dos logs gerados pelo Zabbix Agent.
