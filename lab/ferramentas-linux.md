@@ -39,3 +39,55 @@ sudo apt update && sudo apt install net-tools iproute2 iputils-ping traceroute c
 | `arping`          | Envia pings ARP (camada 2)                             | `sudo apt install arping`     |
 | `unzip`           | Descompactar arquivos `.zip`                           | `sudo apt install unzip`      |
 | `whois`           | Consulta de registros de domínios                      | `sudo apt install whois`      |
+
+---
+
+## 🧠 Exemplos práticos / Usage examples
+Ver interfaces e IPs
+
+```bash
+ip a
+ifconfig
+```
+Ver rotas
+```bash
+ip r
+netstat -rn
+```
+Testar conexão com IP ou domínio
+```bash
+ping 8.8.8.8
+ping google.com
+```
+Rastrear rota até um destino
+```bash
+traceroute google.com
+mtr google.com
+```
+Escanear portas de um host
+```bash
+nmap 192.168.0.1
+```
+Capturar pacotes da rede
+```bash
+sudo tcpdump -i enp0s3
+```
+Ver tráfego por interface
+```bash
+sudo iftop
+```
+Consultar DNS
+```bash
+dig google.com
+nslookup google.com
+```
+
+---
+
+## ✅ Próximos passos / Next steps
+
+  Aplicar as ferramentas em diagnósticos reais
+
+  Utilizar nos projetos simulados em /projetos/
+
+  Integrar ferramentas ao monitoramento via Zabbix ou Grafana
