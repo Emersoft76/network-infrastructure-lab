@@ -23,3 +23,6 @@ This script installs Bind9 and sets up a basic DNS zone (`lab.local`) pointing t
 sudo chmod +x dns_bind.sh
 sudo ./dns_bind.sh
 ```
+---
+
+Após execução, use dig, nslookup ou ping com lab.local para testar.
