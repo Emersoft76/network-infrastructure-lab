@@ -21,3 +21,10 @@ Depois, edite /etc/openvpn/server.conf e inicie o serviço com:
 sudo systemctl start openvpn@server
 sudo systemctl enable openvpn@server
 ```
+---
+
+---
+
+## ✅ Próximo passo sugerido / Suggested next step
+
+- [firewall.md](./firewall.md): Reforce a segurança da sua VPN configurando regras de firewall específicas.
