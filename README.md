@@ -109,5 +109,6 @@ Projetos desenvolvidos durante a graduação em Gerenciamento de Redes de Comput
 ## 📄 Licença / License
 
 Este projeto está licenciado sob a [MIT License](./LICENSE).
+
 This content is licensed under the [MIT License](./LICENSE).
 
