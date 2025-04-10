@@ -19,12 +19,12 @@ Este script define um IP estático e hostname em um ambiente Ubuntu Server utili
 
 ---
 
-## 🚀 Aplicação
+## 🚀 Como executar / How to run
 
-Após salvar o YAML, o comando `netplan apply` ativa as configurações imediatamente.
-
-> Use `sudo ./configure_network.sh` para aplicar.
+```bash
+sudo ./configure_network.sh
+```
 
 ---
 
-💡 Ideal para laboratórios em VirtualBox, GNS3 ou ambientes corporativos isolados.
+##💡 Ideal para laboratórios em VirtualBox, GNS3 ou ambientes corporativos isolados.
