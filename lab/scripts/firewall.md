@@ -1,5 +1,3 @@
-## ✅ firewall.md (Explicação técnica em Markdown)
-
 # 🛡️ firewall.sh – Explicação Técnica  
 **Configuração automatizada de firewall com iptables**
 
@@ -18,10 +16,6 @@ iptables -P INPUT DROP
 iptables -P FORWARD DROP
 iptables -P OUTPUT ACCEPT
 ```
-INPUT/FORWARD bloqueados por padrão
-
-OUTPUT liberado para o sistema sair
-
 ---
 
 ## ✅ Regras permitidas / Allowed traffic
@@ -36,12 +30,21 @@ OUTPUT liberado para o sistema sair
 
       Ping (ICMP)
 
----
+      ---
 
-## 💾 Persistência
+##💾 Persistência / Persistence
 ```bash
 sudo apt install iptables-persistent
 sudo netfilter-persistent save
 ```
 
-Execute com sudo ./firewall.sh em servidores Linux Ubuntu/Debian.
+---
+
+## 🚀 Como executar / How to run
+```bash
+sudo ./firewall.sh
+```
+
+---
+
+💡 Ideal para servidores Linux baseados em Ubuntu ou Debian.
