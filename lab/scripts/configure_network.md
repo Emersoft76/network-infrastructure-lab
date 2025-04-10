@@ -1,30 +1,20 @@
-# 🖧 configure_network.sh – Explicação Técnica  
-**Script de configuração de rede e hostname em Ubuntu Server**
+# 🖧 configure_network.sh – Configuração de Rede / Network Setup
 
 ---
 
 ## 📝 Explicação técnica / Technical explanation
 
-Este script define um IP estático e hostname em um ambiente Ubuntu Server utilizando `netplan` (padrão a partir da versão 18.04+).
+Este script define um IP estático e hostname em um servidor Ubuntu utilizando Netplan.
 
----
-
-## 🔧 Componentes aplicados
-
-- `hostnamectl` para mudar o nome do host
-- Arquivo `/etc/netplan/00-static.yaml` com:
-  - IP fixo: `192.168.50.10/24`
-  - Gateway: `192.168.50.1`
-  - DNS: interno + externo
+This script sets a static IP address and hostname using Netplan on Ubuntu Server.
 
 ---
 
 ## 🚀 Como executar / How to run
 
 ```bash
+sudo chmod +x configure_network.sh
 sudo ./configure_network.sh
 ```
-
----
 
 💡 Ideal para laboratórios em VirtualBox, GNS3 ou ambientes corporativos isolados.
