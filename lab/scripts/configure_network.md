@@ -18,3 +18,11 @@ sudo ./configure_network.sh
 ```
 
 💡 Ideal para laboratórios em VirtualBox, GNS3 ou ambientes corporativos isolados.
+
+---
+
+---
+
+## ✅ Próximo passo sugerido / Suggested next step
+
+- [firewall.md](./firewall.md): Aplique regras de segurança básicas com iptables após configurar a rede.
