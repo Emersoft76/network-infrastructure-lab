@@ -92,7 +92,7 @@ Feel free to suggest new scripts, improvements, or fixes.
 
 ## 📄 Licença / License
 
-Este projeto está licenciado sob a [MIT License](./LICENSE).
+Este projeto está licenciado sob a [MIT License](https://github.com/Emersoft76/network-infrastructure-lab/blob/main/LICENSE).
 
-This content is licensed under the [MIT License](./LICENSE).
+This content is licensed under the [MIT License](https://github.com/Emersoft76/network-infrastructure-lab/blob/main/LICENSE).
 
