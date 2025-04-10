@@ -83,11 +83,12 @@ This checklist helps plan, deploy, and validate all critical components of a net
 
 ## 🧪 Testes finais / Final tests
 
-- [ ] Comunicação entre sub-redes
-- [ ] Acesso externo à internet (via NAT)
-- [ ] Conectividade Wi-Fi segura
-- [ ] Acesso VPN funcional
-- [ ] Dashboards de monitoramento exibindo dados
+| Teste                            | Status |
+|----------------------------------|--------|
+| Comunicação entre sub-redes      | ✅     |
+| Acesso externo à internet (NAT)  | ✅     |
+| Acesso VPN funcional             | ✅     |
+| Dashboards de monitoramento OK   | ✅     |
 
 ---
 
