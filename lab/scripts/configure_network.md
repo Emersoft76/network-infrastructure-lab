@@ -27,4 +27,4 @@ sudo ./configure_network.sh
 
 ---
 
-##💡 Ideal para laboratórios em VirtualBox, GNS3 ou ambientes corporativos isolados.
+💡 Ideal para laboratórios em VirtualBox, GNS3 ou ambientes corporativos isolados.
