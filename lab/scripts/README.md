@@ -6,21 +6,25 @@ Scripts to automate network, security, monitoring, and infrastructure tasks on L
 
 ---
 
-## 📂 Estrutura atual / Current structure
+## 📁 Estrutura da pasta /lab/scripts/
 
-/lab/scripts/
-├── configure_network.sh
-├── configure_network.md
-├── firewall.sh
-├── firewall.md
-├── dns_bind.sh
-├── dns_bind.md
-├── install_zabbix_agent.sh
-├── install_zabbix_agent.md
-├── openvpn_server.sh
-├── openvpn_server.md
-├── log_rotation_setup.sh
-├── log_rotation_setup.md
+- 📄 [`configure_network.sh`](./configure_network.sh) – Script de configuração de IP fixo e hostname  
+- 📝 [`configure_network.md`](./configure_network.md) – Explicação técnica do script de rede  
+
+- 📄 [`firewall.sh`](./firewall.sh) – Script de regras básicas de firewall com iptables  
+- 📝 [`firewall.md`](./firewall.md) – Explicação técnica do script de firewall  
+
+- 📄 [`dns_bind.sh`](./dns_bind.sh) – Script de instalação e configuração do servidor DNS Bind9  
+- 📝 [`dns_bind.md`](./dns_bind.md) – Explicação técnica do script DNS  
+
+- 📄 [`install_zabbix_agent.sh`](./install_zabbix_agent.sh) – Script para instalar e configurar o Zabbix Agent  
+- 📝 [`install_zabbix_agent.md`](./install_zabbix_agent.md) – Explicação técnica do script do Zabbix  
+
+- 📄 [`openvpn_server.sh`](./openvpn_server.sh) – Script para preparar um servidor OpenVPN com Easy-RSA  
+- 📝 [`openvpn_server.md`](./openvpn_server.md) – Explicação técnica do script VPN  
+
+- 📄 [`log_rotation_setup.sh`](./log_rotation_setup.sh) – Script de rotação de logs customizados  
+- 📝 [`log_rotation_setup.md`](./log_rotation_setup.md) – Explicação técnica da rotação de logs
 
 ---
 
