@@ -93,4 +93,5 @@ Feel free to suggest new scripts, improvements, or fixes.
 ##📄 Licença / License
 
 Este conteúdo está licenciado sob a [MIT License](LICENSE).
+
 This content is licensed under the [MIT License](LICENSE).
