@@ -19,3 +19,11 @@ sudo ./log_rotation_setup.sh
 ---
 
 Ideal para gerenciar logs de aplicações customizadas.
+
+---
+
+---
+
+## ✅ Próximo passo sugerido / Suggested next step
+
+- [dns_bind.md](./dns_bind.md): Adicione rotação de logs também para serviços como Bind9 (DNS).
