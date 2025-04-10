@@ -1,9 +1,3 @@
-
----
-
-### 🔥 `firewall.sh`
-
-```bash
 #!/bin/bash
 
 # Script básico de firewall com iptables
