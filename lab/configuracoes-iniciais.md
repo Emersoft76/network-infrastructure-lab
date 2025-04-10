@@ -24,10 +24,10 @@ Garante que o sistema esteja com os pacotes mais recentes.
 ## ✅ 2. Configurar fuso horário / Set time zone
 
 ```bash
-sudo timedatectl set-timezone America/Sao_Paulo
+sudo timedatectl set-timezone Europe/Lisbon
 timedatectl status
 ```
-Substitua America/Sao_Paulo se estiver em outra região.
+Substitua Europe/Lisbon se estiver em outra região.
 Use timedatectl list-timezones para consultar outros fusos.
 
 ---
