@@ -26,14 +26,14 @@ Scripts to automate network, security, monitoring, and infrastructure tasks on L
 
 ## 📜 Lista de scripts / Script list
 
-| Script                        | Descrição (PT-BR)                                      | Description (EN)                                 |
-|------------------------------|--------------------------------------------------------|--------------------------------------------------|
-| `configure_network.sh`       | Configura IP fixo e hostname                          | Sets static IP and hostname                      |
-| `firewall.sh`                | Regras básicas de firewall com iptables              | Basic firewall rules using iptables              |
-| `dns_bind.sh`                | Instala e configura servidor DNS Bind9               | Installs and configures Bind9 DNS server         |
-| `install_zabbix_agent.sh`    | Instala o agente Zabbix                              | Installs the Zabbix monitoring agent             |
-| `openvpn_server.sh`          | Prepara servidor OpenVPN com Easy-RSA                | Sets up OpenVPN server using Easy-RSA            |
-| `log_rotation_setup.sh`      | Configura rotação de logs personalizados             | Sets custom log rotation using logrotate         |
+| Script                        | Descrição (PT-BR)                                      | Documentation (.md)                       |
+|------------------------------|--------------------------------------------------------|--------------------------------------------|
+| `configure_network.sh`       | Configura IP fixo e hostname                          | [configure_network.md](./configure_network.md) |
+| `firewall.sh`                | Regras básicas de firewall com iptables              | [firewall.md](./firewall.md)                   |
+| `dns_bind.sh`                | Instala e configura servidor DNS Bind9               | [dns_bind.md](./dns_bind.md)                   |
+| `install_zabbix_agent.sh`    | Instala o agente Zabbix                              | [install_zabbix_agent.md](./install_zabbix_agent.md) |
+| `openvpn_server.sh`          | Prepara servidor OpenVPN com Easy-RSA                | [openvpn_server.md](./openvpn_server.md)       |
+| `log_rotation_setup.sh`      | Configura rotação de logs personalizados             | [log_rotation_setup.md](./log_rotation_setup.md) |
 
 ---
 
