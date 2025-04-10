@@ -1,25 +1,31 @@
 #!/bin/bash
+# firewall.sh
+# Configuração básica de firewall com UFW para servidores Ubuntu
+# Basic UFW firewall configuration for Ubuntu servers
 
-# Script básico de firewall com iptables
+echo "Inicializando configuração do firewall (UFW)..."
+echo "Starting UFW firewall configuration..."
 
-# Política padrão
-iptables -P INPUT DROP
-iptables -P FORWARD DROP
-iptables -P OUTPUT ACCEPT
+# Atualiza os pacotes e instala o UFW (caso não esteja instalado)
+sudo apt update && sudo apt install ufw -y
 
-# Permitir loopback
-iptables -A INPUT -i lo -j ACCEPT
+# Reseta configurações anteriores
+sudo ufw --force reset
 
-# Permitir conexões já estabelecidas
-iptables -A INPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
+# Permite tráfego de entrada para serviços essenciais
+sudo ufw allow ssh     # Porta 22 - Acesso remoto
+sudo ufw allow http    # Porta 80 - Servidor web (opcional)
+sudo ufw allow https   # Porta 443 - Web segura (opcional)
 
-# Permitir SSH (porta 22)
-iptables -A INPUT -p tcp --dport 22 -j ACCEPT
+# Bloqueia todo o resto por padrão
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
 
-# Permitir OpenVPN (porta UDP 1194)
-iptables -A INPUT -p udp --dport 1194 -j ACCEPT
+# Ativa o firewall
+sudo ufw --force enable
 
-# Permitir ping
-iptables -A INPUT -p icmp -j ACCEPT
+# Mostra o status final
+sudo ufw status verbose
 
-echo "Firewall aplicado com sucesso!"
+echo "Firewall configurado com sucesso!"
+echo "Firewall successfully configured!"
