@@ -26,3 +26,11 @@ sudo ./dns_bind.sh
 ---
 
 Após execução, use dig, nslookup ou ping com lab.local para testar.
+
+---
+
+---
+
+## ✅ Próximo passo sugerido / Suggested next step
+
+- [install_zabbix_agent.md](./install_zabbix_agent.md): Instale o agente de monitoramento para acompanhar o desempenho do servidor DNS.
