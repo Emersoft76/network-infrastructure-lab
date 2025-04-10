@@ -21,4 +21,4 @@ EOF
 
 netplan apply
 
-echo "Configuração de rede aplicada com sucesso."
+echo "Configuração de rede aplicada com sucesso!"
