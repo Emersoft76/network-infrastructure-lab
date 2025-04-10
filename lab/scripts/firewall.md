@@ -16,21 +16,24 @@ iptables -P INPUT DROP
 iptables -P FORWARD DROP
 iptables -P OUTPUT ACCEPT
 ```
+
+Entrada e encaminhamento bloqueados por padrão
+
+Saída permitida para que o sistema possa se comunicar externamente
+
 ---
 
-## ✅ Regras permitidas / Allowed traffic
+## ✅ Regras permitidas / Allowed rules
 
-      lo (localhost)
+| Regra (iptables)                                | Função / Purpose                                 |
+|--------------------------------------------------|--------------------------------------------------|
+| `-i lo -j ACCEPT`                                | Permite tráfego local (loopback interface)       |
+| `-m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT` | Permite conexões já estabelecidas ou relacionadas |
+| `-p tcp --dport 22 -j ACCEPT`                    | Libera acesso remoto via SSH (porta 22)          |
+| `-p udp --dport 1194 -j ACCEPT`                  | Libera conexões de VPN OpenVPN (porta 1194/UDP)  |
+| `-p icmp -j ACCEPT`                              | Libera ICMP (ping, Echo Request)                 |
 
-      Conexões já estabelecidas
-
-      SSH (porta 22)
-
-      OpenVPN (porta 1194)
-
-      Ping (ICMP)
-
-      ---
+---
 
 ##💾 Persistência / Persistence
 ```bash
@@ -42,6 +45,7 @@ sudo netfilter-persistent save
 
 ## 🚀 Como executar / How to run
 ```bash
+sudo chmod +x firewall.sh
 sudo ./firewall.sh
 ```
 
